@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/assets/css/global/global.css">
+	<link rel="stylesheet" href="/assets/css/navbar/navbar.css">
+	<link rel="stylesheet" href="/assets/css/navbar/hamburger.css">
+	<link rel="stylesheet" href="/assets/css/slider/slider.css">
+	<link rel="stylesheet" href="/assets/css/form/form.css">
+	<link rel="stylesheet" href="/assets/css/nightmode/nightmode.css">
+	<link rel="icon" href="/assets/image/logo/logo-no-background.png">
+  <title>Jejak Jejaka</title>
+</head>
+<body>
+	 <header class="header" id="header">
+		<div class="logo">
+			<img src="/assets/image/logo/logo-no-background.png" width="100" height="100" alt="">
+		</div>
+		<div class="menu-desktop">
+			<nav class="desktop" id="desktop">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#track">Jalur</a></li>
+					<li><a href="#contact">Kontak</a></li>
+					<li class="isNightmode">
+						<div>
+							<img src="/assets/image/icon/day-and-night.png" alt="" class="img-toggle" id="img-toggle-dark">
+							<img src="/assets/image/icon/day-and-night-light.png" alt="" class="img-toggle" id="img-toggle-light">
+						</div>
+						<div>
+							<label class="switch">
+								<input type="checkbox" onclick="darkMode()" id="nightmode">
+								<span class="slider"></span>
+							</label>
+						</div>
+					</li>
+					<!-- <li><img src="/assets/image/icon/night.png" alt="" class="img-dark" id="img-dark" onclick="lightMode()"></li> -->
+				</ul>
+			</nav>
+			<nav class="mobile">
+				<img src="/assets/image/icon/hamburger.png" width="50" height="50" alt="" class="img-hamburger" id="img-hamburger" onclick="showOverlay()">
+				<img src="/assets/image/icon/close.png" width="45" height="45" alt="" class="img-close" id="img-close" onclick="hideOverlay()">
+			</nav>
+		</div>
+	</header>
+	<nav class="hamburger" id="hamburger">
+		<div class="mobile-wrap">
+			<div></div>
+			<div>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#track">Jalur</a></li>
+					<li><a href="#contact">Kontak</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li class="isnightmode-mobile">
+						<div>
+							<a href="javascript:void(0)">Dark Mode</a>
+						</div>
+						<div>
+							<label class="switch">
+								<input type="checkbox" onclick="darkMode('mobile')" id="nightmode-mobile">
+								<span class="slider"></span>
+							</label>
+						</div>
+					</li>			
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<main class="main">
+		<div class="frame">
+			<div class="carousel">
+				<!-- <p class="element">"Incredible"</p> -->
+				<img src="/assets/image/thumbnail/banner-1.png" alt="" class="element">
+				<img src="/assets/image/thumbnail/banner-2.png" alt="" class="element">
+				<img src="/assets/image/thumbnail/banner-3.png" alt="" class="element">
+			</div>
+		</div>
+		<section class="track" id="track">
+			<div class="track-wrapper">
+				<div class="trek">
+					<div class="trek-highlight">
+						<article class="trek-article">
+							<h2 class="font-marginL">Jalur Pendakian</h2>
+							<figure>
+								<div class="article-image">
+									<img src="/assets/image/thumbnail/thumb-3.png" alt="View of Rinjani Mountain and Segara Anak at sunset moment" class="img-thumbnail">
+								</div>
+								<div class="article-text">
+									<h3 class="subtitle">Jalur Pendakian Gunung Rinjani</h3>
+									<p class="story-description">
+									Indonesia memiliki banyak sekali berbagai suku, ras, kepercayaan, dan budaya. Takluput juga dengan keindahan alam yang beragam.
+									Dikesempatan ini, artikel ini membahas jalur pendakian Gunung Rinjani
+									</p>
+								</div>
+							</figure>
+						</article>
+					</div>
+					<div class="trek-ordinary">
+						<div class="ordinary-article">
+							<article>
+								<figure>
+									<img src="/assets/image/thumbnail/thumb-lawu.png" alt="View of sabana at Lawu track" class="img-thumbnail">
+									<h3 class="subtitle">Jalur Pendakian Gunung Lawu</h3>
+									<p class="story-description">
+										Artikel ini membahas secara lengkap tentang 5 jalur pendakian gunung Lawu. 
+										Mulai dari basecamp Cemoro Sewu, Cemoro Kandang, Candi Cetho, Jogorogo, Singolangu, hingga Tambak.
+								</figure>
+							</article>
+							<article>
+								<figure>
+									<img src="/assets/image/thumbnail/thumb-merbabu.png" alt="Landscape of Merbabu track via Suwanting with Merapi Mountain on the background" class="img-thumbnail">
+									<h3 class="subtitle">Jalur Pendakian Gunung Merbabu</h3>
+									<p class="story-description">
+										Dikesempatan ini, artikel ini membahas secara lengkap tentang jalur-jalur pendakian gunung Merbabu. 
+										Mulai dari basecamp Selo, Tekelan, Suwanting, Wekas dan Cuntel.
+								</figure>
+							</article>
+							<article>
+								<figure>
+									<img src="/assets/image/thumbnail/thumb-ungaran.png" alt="Landscape of Ungaran Mountain track" class="img-thumbnail">
+									<h3 class="subtitle">Jalur Pendakian Gunung Ungaran</h3>
+									<p class="story-description">
+										2 jalur pendakian resmi Gunung Ungaran akan menampilkan keindahan alam yang tak terlupakan. Baca sekarang
+								</figure>
+							</article>							
+						</div>
+					</div>
+				</div>
+				<div class="stories">
+					<article>
+						<h2 class="font-marginC">Cerita Perjalanan</h2>
+						<figure>
+							<div class="stories-content">
+								<img src="/assets/image/thumbnail/thumb-gede.png" alt="" class="img-thumbnail">
+								<h3 class="subtitle">"Ganas"-nya jalur Gunung Gede via Putri</h3>
+								<p class="story-description">
+									Bagi kalian yang pernah mendaki Gunung Gede via Putri, reaksi pertama yang dikeluarkan adalah "Lelah Bro".
+									Reaksi tersebut wajar dikarenakan memang jalur ini dikenal jalur tak ada ampun. Jarang bonus / dataran landai,
+									sehingga sebelum melewati jalur ini, diperlukan persiapan fisik yang ekstra...
+								</p>
+							</div>
+						</figure>
+					</article>
+					<article>
+						<figure>
+							<div class="stories-content">
+								<img src="/assets/image/thumbnail/thumb-1.png" alt="" class="img-thumbnail">
+								<h3 class="subtitle">"Berburu" Mbok Yem Lawu</h3>
+								<p class="story-description">
+									Salah satu pesona atau daya tarik Gunung Lawu adalah Mbok Yem. Mbok Yem sendiri mendapat julukan "penunggu" Lawu, dikarenakan warung
+									yang ia kelola menyandang status sebagai warung tertinggi di Indonesia. Tak jarang warung milik Mbok Yem selalu ramai oleh para pendaki...
+								</p>
+							</div>
+						</figure>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section class="gallery" id="gallery">
+			<div class="gallery-wrapper">
+				<article class="gallery-content">
+					<div class="gallery-intro">
+						<h2>GALLERY</h2>
+					</div>
+					<div class="gallery-placement">
+						<figure class="item-grid" id="grid-1">
+							<img src="https://i.ibb.co/D48kjZb/20230603-065648.jpg" alt="View of large savana at Lawu Mountain" class="img-thumbnail">
+						</figure>
+						<figure class="item-grid" id="grid-2">
+							<img src="https://i.ibb.co/tp7Vz12/20210626-165524.jpg" alt="Man reordering his mountain bag at Gede Mountain track" class="img-thumbnail">
+						</figure>
+						<figure class="item-grid" id="grid-3">
+							<img src="https://i.ibb.co/MCHWg8N/IMG-20210626-162857.jpg" alt="2 mens resting his leg at Gede Mountain track" class="img-thumbnail">
+						</figure>
+						<figure class="item-grid" id="grid-4">
+							<img src="https://i.ibb.co/N7t7yhh/20210627-080100.jpg" alt="The view of large savana from top of Gede Mountain Track" class="img-thumbnail">
+						</figure>
+						<figure class="item-grid" id="grid-5">
+							<img src="https://i.ibb.co/fMmhnWm/20210627-064409.jpg" alt="The View of Pangrango Mountain from top of Gede Mountain" class="img-thumbnail">
+						</figure>	
+					</div>
+				</article>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<div class="contact-wrapper">
+				<div class="title-form">
+					<h2>Join Me For Next Trip!</h2>
+				</div>
+				<div class="contact-form">
+					<div>
+						<picture>
+							<img
+								sizes="(max-width: 640px) 100vw, 640px"
+								srcset="
+									/assets/image/upload/people_wy3wba_c_scale,w_200.jpg 200w,
+									/assets/image/upload/people_wy3wba_c_scale,w_438.jpg 438w,
+									/assets/image/upload/people_wy3wba_c_scale,w_600.jpg 600w,
+									/assets/image/upload/people_wy3wba_c_scale,w_640.jpg 640w"
+								src="/assets/image/upload/people_wy3wba_c_scale,w_640.jpg"
+								alt="">
+						</picture>
+					</div>
+					<div>
+						<form action="javascript:void(0)" class="form-hiker">
+							<fieldset>
+								<legend>Hiker Data</legend>
+								<div>
+									<label for="name">Full Name</label>
+								</div>
+								<div>
+									<input type="text" name="name" id="name" class="input-primary" required>
+								</div>
+								<div>
+									<label for="name">Email</label>
+								</div>
+								<div>
+									<input type="email" name="email" id="email" class="input-primary" required>
+								</div>
+								<div>
+									<label for="dob">Date of Birth</label>
+								</div>
+								<div>
+									<input type="date" name="dob" id="dob" class="input-primary" max="2017-12-31" required>
+								</div>
+							</fieldset>
+							<fieldset>
+								<legend>Hiker Information</legend>
+								<div>
+									<label for="marital">Marital Status</label>
+								</div>
+								<div>
+									<input type="radio" id="single" name="isSingle" value="Single">
+									<label for="single">Single</label>
+									<input type="radio" id="married" name="isMarried" value="Married">
+									<label for="married">No</label>
+								</div>
+								<div>
+									<p>Why wanna join us?</p>
+									<input id="challenge" type="checkbox" name="background" value="challenge">
+									<label for="challenge">Challenging</label>
+									<input id="hobby" type="checkbox" name="background" value="hobby">
+									<label for="hobby">Hobby</label>
+									<input id="environtment" type="checkbox" name="background" value="environtment">
+									<label for="environtment">Environtment</label>
+								</div>
+								<div>
+									<label for="yourstory">Please tell us about your hiking activity</label>
+									<textarea rows="10" ></textarea>
+								</div>
+								<div>
+									<label for="upload">Upload your latest Story here</label>
+									<input type="file" accept=".doc,.docx,.txt,.pdf" name="stori" id="stori" />
+								</div>
+							</fieldset>
+							<button type="submit" class="btn-primary">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script>
+			window.onload = function (e) {
+				let elem = document.getElementById("gallery")
+				let elemContact = document.getElementById("contact")
+				let elemTrek = document.getElementById("track")
+				let rect = elem.getBoundingClientRect().y;
+				let rectContact = elemContact.getBoundingClientRect().y
+				let rectTrek = elemTrek.getBoundingClientRect().y
+				let session = localStorage.getItem('nightmode');
+				let checkBoxMobile = document.getElementById("nightmode-mobile");
+				let checkBox = document.getElementById("nightmode");
+				let header = document.getElementById('header');
+
+				if (session === 'true') {
+				  document.body.classList.add("dark-mode");
+      		header.classList.add("dark-mode");
+					checkBox.checked = true;
+					checkBoxMobile.checked = true;
+					document.getElementById("img-toggle-dark").style.display = 'none'
+      		document.getElementById("img-toggle-light").style.display = 'block'
+				} else {
+					document.body.classList.remove("dark-mode");
+      		header.classList.remove("dark-mode");
+					checkBox.checked = false;
+					checkBoxMobile.checked = false;
+					document.getElementById("img-toggle-dark").style.display = 'block'
+      		document.getElementById("img-toggle-light").style.display = 'none'
+				}
+
+
+				window.addEventListener("scroll", function(event) {
+						let topGallery = this.scrollY + window.innerHeight ;
+						let topContact = this.scrollY + window.innerHeight;
+						let topTrek = this.scrollY + window.innerHeight;
+						if(topGallery >= rect) {
+							elem.classList.add("scrolled");
+						} else {
+							elem.classList.remove('scrolled');
+						}
+
+						if (topContact >= rectContact) {
+							elemContact.classList.add("scrolled-right");
+						} else {
+							elemContact.classList.remove("scrolled-right");
+						}
+					// console.log(rect)
+								// console.log(top)
+				}, false);
+			}
+	</script>
+	<script src="/assets/js/hamburger/hamburger.js"></script>
+	<script src="/assets/js/nightmode/nightmode.js"></script>
+</body>
+</html>
