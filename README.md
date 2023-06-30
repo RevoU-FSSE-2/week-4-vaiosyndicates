@@ -4,7 +4,7 @@ Holla!
 I'am Kresna. In this digital era, technology industry always evolving. From static to dynamic, from desktop to mobile. Why mobile?
 Because people nowadays always carry their mobile phone. That's why responsive design in this digital era is important to uplifting and improve engagement for entrepreneur. 
 
-For example, i'am try to build an website that already use responsive website design.
+The purpose of this website is inform people or hiker about official track for several mountain and also sharing stories about outdoor activity
 
 ## WEBSITE STRUCTURE
 
