@@ -141,6 +141,9 @@ h2 {
       #footer {
         background-color: #ccc840;
       }
+      .website-branding {
+        max-width: 50%;
+      }      
 }
 @media (min-width: 577px) and (max-width: 768px) {
     .gallery-content .gallery-intro,
@@ -568,13 +571,9 @@ section {
 section.contact {
     background-color: var(--gray);
 }
-/* .footer-content {
-  display: flex;
-  justify-content: space-evenly;
+.footer-content {
+    color: var(--white);
 }
-#footer {
-  background-color: #ccc840;
-} */
 @keyframes slide-in-left {
     0% {
         transform: translateX(-100px);
