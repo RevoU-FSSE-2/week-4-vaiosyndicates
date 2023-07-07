@@ -62,6 +62,51 @@ Note*:
 
 ![](assets/image/gif/netlify7.gif)
 </li>
+</ol>
+<br>
+
+> ### NIAGAHOSTER
+<ol>
+<li>First signup to Niagahoster. After that choose the product. In this cases, i use domain product for week 4 assignment
+
+![](assets/image/gif/niaga1.gif)
+
+</li>
+<li>Check your domain name to checking availbility of your website name. In this case, i use jejakjejaka for my website name
+
+![](assets/image/gif/niaga2.gif)
+
+</li>
+<li>If your site name available, you can check the domain and also the price. Choose what do you want. In this case, i use .site domain
+
+![](assets/image/gif/niaga3.gif)
+
+</li>
+<li>Choose the product service. In this case, only buy domain
+
+![](assets/image/gif/niaga4.gif)
+
+</li>
+<li>Choose the payment method. I use QRIS method for easier payment
+
+![](assets/image/gif/niaga5.gif)
+
+</li>
+<li>You will be get modal notification for input your profile. 
+
+![](assets/image/gif/niaga6.gif)
+
+</li>
+<li>After fill the profile modal, you'll go to payment page. For QRIS, the QR image will be shown. Just follow the instruction 
+
+![](assets/image/gif/niaga7.gif)
+
+</li>
+<li>And voila. Your website ready to live 
+
+![](assets/image/gif/niaga8.gif)
+
+</li>
 
 </ol>
 
