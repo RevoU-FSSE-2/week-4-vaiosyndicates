@@ -38,28 +38,29 @@ Note*:
 <img src="https://i.ibb.co/7GMjs0c/tes14.png" alt="tes14" border="0"></li>
 <li>You will redirect to Dashboard Page. Select SITE menu at sidebar to add New Site. And then choose Add new Site. In this example, i used import from existing project because the project for deployment came from Github.
 
-![Alt Text](https://s11.gifyu.com/images/SWsti.gif)
 ![](assets/image/gif/netlify1.gif)
+![](assets/image/gif/netlify2.gif)
+
 </li>
 <li>Choose the repository from Github for deployment. And then select Deploy
 
-![Alt Text](https://s12.gifyu.com/images/SWstY.gif)
+![](assets/image/gif/netlify3.gif)
 </li>
 <li>Deployment process will be proceed automatically. You can see the deployment status at the Site Overview page. If deployment success, you'll get the default web address from netlify.
 
-![Alt Text](https://s12.gifyu.com/images/SWstj.gif)
+![](assets/image/gif/netlify4.gif)
 </li>
 <li>If you wanna change the site name, go to Site Configuration and choose Change site name 
 
-![Alt Text](https://s12.gifyu.com/images/SWstR.gif)
+![](assets/image/gif/netlify5.gif)
 </li>
 <li>Customize your site name, and then Save. Your site name will be replace 
 
-![Alt Text](https://s12.gifyu.com/images/SWstZ.gif)
+![](assets/image/gif/netlify6.gif)
 </li>
 <li>Now at your browser, go to your custom site name. And your website now go live using netlify
 
-![Alt Text](https://s12.gifyu.com/images/SWstD.gif)
+![](assets/image/gif/netlify7.gif)
 </li>
 
 </ol>
