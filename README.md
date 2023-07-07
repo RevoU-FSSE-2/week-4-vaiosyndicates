@@ -29,6 +29,43 @@ The purpose of this website is inform people or hiker about official track for s
 Note*: 
 - VANILLA JS, CSS ARE USED. The power of Vanilla
 
+## Source Versioning
+We use source versioning for separate between main repo and branch for accessibility, security and also avoid conflict at an project
+
+### Branch
+<ol>
+<li>Create branch from main using "GIT CHECKOUT -B BRANCH_NAME" <br><br>
+
+![](assets/image/gif/branch1.gif)
+</li>
+<li>After new branch created, we check the status of new branch using "GIT STATUS". It will give information about current branch <br><br>
+
+![](assets/image/gif/branch2.gif)
+</li>
+<li>Now we must pull latest source from MAIN using "GIT PULL ORIGIN MAIN". 
+
+![](assets/image/gif/branch3.gif)
+</li>
+</ol>
+
+### Pull Request
+After we do editing some files and pushing to new branch, now we do pull request before merge to main. The function of Pull Request is protect main repo from conflict and also the reviewer can do review the code about quality, syntax, variable and etc<br<br>
+<ol>
+<li>As collaborator, from main repository, choose the custom branch and select pull request 
+
+![](assets/image/gif/pr1.gif)
+</li>
+<li>Give description about the code change include addition or deletion code or improvement. And your pull request success created
+
+![](assets/image/gif/pr2.gif)
+</li>
+<li>As review, you can review the pull request and if reviewer opinion is good, the reviewer can do merging code from branch to main branch using Confirm Merge button
+
+![](assets/image/gif/pr3.gif)
+</li>
+</ol>
+
+
 ## Deployment
 >### NETLIFY
 <ol>
@@ -109,7 +146,85 @@ Note*:
 </li>
 
 </ol>
+<br>
 
+> ### CLOUDFLARE
+<ol>
+<li>First signup to Cloudflare. You can use existing email and set the password. You'll receive confirmation email from Cloudflare
+
+![](assets/image/upload/cloud0.png)
+
+</li>
+<li>After receive email from Cloudflare and email verification, you can login using email and password that you've registered before. When login success, you'll be redicreting to Cloudflare dashboard
+
+![](assets/image/upload/cloud01.png)
+
+</li>
+<li>Register your site to Cloudfare
+
+![](assets/image/upload/cloud1.png)
+
+</li>
+<li>For assignment week 4, choose Free feature
+
+![](assets/image/upload/cloud2.png)
+
+</li>
+<li>At this section, pay attention to point 2. Because Nameserver 1 and 2 is important. Because it needs registered at niagahoster domain server. So we move to Niagahoster
+
+![](assets/image/upload/cloud022.png)
+
+</li>
+<li>At Niagahoster, we change the nameserver from default to Cloudflare nameserver
+
+![](assets/image/upload/cloud3.png)
+![](assets/image/upload/cloud31.png)
+
+</li>
+<li>After we set the nameserver from Niagahoster, we must set the DNS routing at DNS menu. For example, i set the DNS record with <br><br>
+<ol>
+<li>jejakjejaka.site</li>
+<li>www.jejakjejaka.site</li>
+<br>
+</ol>
+
+![](assets/image/upload/cloud6.png)
+> NOTE <br>
+> There are several types of DNS record type : <br>
+> <ol>
+> <li>A and AA : Map a domain name to one or multiple IPv4 or IPv6 address(es).</li><br>
+> <li>CNAME : Map a domain name to another (canonical) domain name. Can be used to resolve other record types present on the target domain name.</li><br>
+> <li>MX : A mail exchange (MX) record is required to deliver email to a mail server.</li><br>
+> <li>DKIM : A DomainKeys Identified Mail (DKIM) record ensures email authenticity by cryptographically signing emails.</li><br>
+> <li>SPF : A Sender Policy Framework (SPF) record lists authorized IP addresses and domains that can send email on behalf of your domain.</li><br>
+> <li>DMARC : A Domain-based Message Authentication Reporting and Conformance (DMARC) record helps generate aggregate reports about your email traffic and provide clear instructions for how email receivers should treat non-conforming emails.</li><br>
+> </ol>
+<br>
+Now we move to Netlify for setting our custom domain
+
+</li><br>
+<li>At Netlify, choose our site and select Domain setting
+
+![](assets/image/upload/dom1.png)
+
+</li>
+<li>Choose add domain
+
+![](assets/image/upload/dom2.png)
+
+</li>
+<li>Fill the input field with your custom domain. At this example, i fill with jejakjejaka.site
+
+![](assets/image/upload/dom3.png)
+
+</li>
+<li>Now we can access our website without using netlify domain.
+We can use jejakjejaka.site<br><br>
+
+![](assets/image/upload/dom5.png)
+
+</li>
+</ol>
 
 ## Reach Me Out
 
