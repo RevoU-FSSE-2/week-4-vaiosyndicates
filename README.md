@@ -39,7 +39,7 @@ Note*:
 <li>You will redirect to Dashboard Page. Select SITE menu at sidebar to add New Site. And then choose Add new Site. In this example, i used import from existing project because the project for deployment came from Github.
 
 ![Alt Text](https://s11.gifyu.com/images/SWsti.gif)
-![hippo](https://s11.gifyu.com/images/SWsti.gif)
+![](assets/image/gif/netlify1.gif)
 </li>
 <li>Choose the repository from Github for deployment. And then select Deploy
 
